@@ -4,7 +4,7 @@ This project is about programming a function that returns a line read from a fil
 ## Notice
 
 Some requirements are specific to the project evaluation and are not friendly to use.\
-[Here's how I implemented the same function in my libft](https://github.com/alvachon/42_libft/blob/main/libft/string/srcs/gnl.c)
+[Here's how I implement the same function in my libft](https://github.com/alvachon/42_libft/blob/main/libft/string/srcs/gnl.c)
 
 ### Don't forget:
 * create a variable named "fd" when you need get_next_line
