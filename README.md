@@ -3,15 +3,20 @@ This project is about programming a function that returns a line read from a fil
 
 ## Notice
 
-Some requirements are specific to the project evaluation and made those functions not that friendly to add in a library as it is. [Here's how I implemented the same function in my libft](https://github.com/alvachon/42_libft/blob/main/libft/string/srcs/gnl.c)
+Some requirements are specific to the project evaluation and are not friendly to use.\
+[Here's how I implemented the same function in my libft](https://github.com/alvachon/42_libft/blob/main/libft/string/srcs/gnl.c)
+
+### Don't forget:
+* create a variable named "fd" when you need get_next_line
+* calling open and close function in <fcntl.h>
 
 ## Installation
 
 You will need valgrind for testing ;
-	[Version for cluster's at 42](https://github.com/LouisBrunner/valgrind-macos)
-	[Via brew](https://brew.sh/)
+* [Version for cluster's at 42](https://github.com/LouisBrunner/valgrind-macos)
+* [Via brew](https://brew.sh/)
 
-You can test it out with those testers;
+### Test
 
-- [Tripouille](https://github.com/Tripouille/gnlTester) \
+- [Tripouille](https://github.com/Tripouille/gnlTester)
 
